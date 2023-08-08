@@ -1,0 +1,313 @@
+* {
+    /* margin: 0;
+    padding: 2px 2px; */
+}
+
+h1 {
+    text-align: center;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.navbar {
+    margin: 25px;
+    border: 2px solid red;
+    border-radius: 200px;
+    padding: 15px;
+    border-color: red;
+    background-color: aquamarine;
+}
+
+.LA {
+    margin: 50px;
+    /* text-align: center; */
+    font-size: 30px;
+    padding: 12px;
+    text-decoration: none;
+}
+
+
+/* .LA:hover {
+    padding: 5px;
+    background-color: rgb(192, 151, 159);
+    border-radius: 500px;
+} */
+
+.LA:hover {
+    background: rgb(224, 188, 188);
+    border-radius: 80px;
+    color: black;
+}
+
+.img1 {
+    height: 100px;
+    width: 200px;
+    border-radius: 200px;
+}
+
+body {
+    background-color: rgb(18, 15, 15);
+}
+
+.audioVideo {
+    border: 2px solid rgb(0, 166, 255);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.audioVideo img {
+    margin: 10px;
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.audioVideo audio {
+    margin: 5px;
+    padding: 30px;
+}
+
+.audioVideo p {
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.span1 {
+    display: flex;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.divAV {
+    display: flex;
+    padding: 1px;
+    margin: 5px;
+}
+
+.divAV1 {
+    display: flex;
+    padding: 30px;
+    margin: 20px;
+}
+
+.audioVideo h1 {
+    color: white;
+}
+
+.audioVideo li {
+    color: white;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5%;
+    padding: 20px;
+    height: 540px;
+    width: 1000px;
+    box-shadow: 0 0 5px rgb(230, 211, 211);
+}
+
+.review p {
+    margin-top: 80px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.img-container img {
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+#audio {
+    position: absolute;
+    margin-top: 200px;
+    margin-bottom: 65px;
+    /* top: 10px; */
+    width: 700px;
+}
+
+.prev-btn {
+    margin-top: 50px;
+    margin: auto;
+    margin-top: 5%;
+    height: 30px;
+    width: 80px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    border: none;
+}
+
+.prev-btn:hover {
+    background-color: aqua;
+}
+
+.next-btn {
+    margin-top: 50px;
+    margin: auto;
+    margin-top: 5%;
+    height: 30px;
+    width: 80px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    border: none;
+}
+
+.bx-chevron-left {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(47, 0, 255);
+    margin-bottom: 25px;
+    margin-right: 80px;
+    margin-left: 15px;
+}
+
+.bx-chevron-right {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(47, 0, 255);
+    margin-bottom: 25px;
+    margin-right: 80px;
+    margin-left: 15px;
+}
+
+.next-btn:hover {
+    background-color: aqua;
+}
+
+.random-btn {
+    margin: 10px;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(224, 191, 59);
+    border: none;
+}
+
+.random-btn:hover {
+    background-color: lightgreen;
+}
+
+.footer-class {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(53, 51, 51);
+    color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    font-size: large;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.footer-div1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.Moblie-app-footer {
+    margin-right: 20px;
+}
+
+.play-store-footer {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.google-play {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    background-color: black;
+}
+
+.google-play a {
+    margin-top: 5px;
+}
+
+.google-play p {
+    color: white;
+    margin-left: 15px;
+}
+
+.google-play img {
+    margin-left: 10px;
+}
+
+img[alt="apple"] {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.keep-in-touch {
+    margin-top: 20px;
+}
+
+.keep-in-touch a {
+    margin-top: 10px;
+}
+
+.h2-heading {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(239, 110, 110);
+}
+
+.Online-Shop-footer h2:hover {
+    color: darkolivegreen;
+}
+
+.customer-pol-footer h2:hover {
+    color: darkolivegreen;
+}
+
+.Moblie-app-footer h2:hover {
+    color: darkolivegreen;
+}
+
+.bxl-facebook-square {
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+.bxl-instagram {
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+.bxl-youtube {
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+.bxl-twitter {
+    font-size: 60px;
+    color: whitesmoke;
+}

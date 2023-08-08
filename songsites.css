@@ -1,0 +1,92 @@
+body {
+    /* background-color: rgb(8, 8, 8); */
+    background-image: url(/sitesimage/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* background-position-x: center;
+    background-position-y: center; */
+}
+
+a {
+    color: rgb(237, 231, 220);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.first-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.second-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gaana a img {
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.gaana a {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80%; */
+}
+
+.gaana:hover {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+img:hover {
+    height: 500px;
+    border: 5px solid black;
+}
+
+.spotify a img {
+    border-radius: 20px;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.spotify:hover {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.resso a img {
+    border-radius: 20px;
+    margin-right: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.resso:hover {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.wynk a img {
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.wynk:hover {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 100px;
+}
